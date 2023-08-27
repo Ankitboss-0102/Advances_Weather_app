@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    <!--This is Nav part-->
+       {{>navbar}}
+
+     <!--This part is below Nav bar-->
+
+       <div class="container-fluid main_header" >
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                
+                <div class="row">
+                    <!--This is left side of page(left header)-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="Images/error.jpg" alt="Ankit" class="img-fluid" title="Nami">
+                        </figure>
+                   
+                        <p>Welcome to the Web Techy World</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                     <!--This is right part of page(right header)-->
+                    
+                </div>
+
+            </div>
+        </div>
+       
+       </div>
+
+       <!--THis is Footer--> 
+        {{>footer}}
+</body>
+</html>
